@@ -218,7 +218,7 @@ def entrypoint(event, context):
                 print('................')
 
                 send_slack_alert(key_holders[each_key]['slack_id'])
-                send_slack_alert("#cyber-security")
+                send_slack_alert("#slack-channel-name")
             else:
                 print(f"Age of key: {age_of_key} seconds")
                 print(f"Key ID: {id_of_key}")
